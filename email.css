@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width:100%;
+    padding: 20px;
+}
+.main>div{
+    margin-bottom:50px;
+}
+.logo{
+    border: 1px solid black;
+}
+.highlight{
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 3%;
+    box-shadow: 0px 10px 10px green;
+}
+.higlight-sub{
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+}
+.course_heading{
+    text-align: center;
+    line-height: 50px;
+}
+.course>h4{
+    text-align: center;
+    line-height: 50px;
+}
+.course_icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 40%;
+    height: 80px;
+    display: flex; 
+    margin-inline: 5%;
+    gap: 10px;
+    margin-block:15px;
+}
+.green{
+    background-color: green;
+    border-radius:5px ;
+    width: 20px;
+    transform: skewY(-20deg);  
+    margin-right:20px;
+}
+.batch_heading{
+    text-align: center;
+    padding-left: 2.5%;
+}
+.companies>span{
+    padding-inline: 2.5%;
+    line-height: 50px;
+}
+.company_icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-inline: 2.5%;
+}
+.company_icons>div{
+    width: 20%;
+    height: 70px;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 8px;
+    margin-bottom:5%;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    text-align: center;
+}
